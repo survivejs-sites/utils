@@ -1,6 +1,6 @@
 {
   "name": "@survivejs/utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utilities for SurviveJS sites",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,9 @@
   "peerDependencies": {
     "lodash": ">= 4.0 < 5.0"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
