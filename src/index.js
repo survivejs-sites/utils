@@ -5,7 +5,6 @@ import getRelatedPosts from "./get-related-posts.js";
 import highlight from "./highlight.js";
 import markdown from "./markdown.js";
 import * as parse from "./parse.js";
-import purgeCloudflare from "./purge-cf.js";
 
 export {
   clean,
@@ -14,6 +13,5 @@ export {
   getRelatedPosts,
   highlight,
   markdown,
-  parse,
-  purgeCloudflare
+  parse
 };
