@@ -7,15 +7,12 @@
     "build": "rimraf ./dist && babel ./src --out-dir ./dist",
     "lint": "eslint . --ext js --ext jsx --ignore-path .gitignore",
     "test": "npm run lint",
-    "preversion": "npm run test",
-    "prepublish": "npm run build"
+    "preversion": "npm run test && npm run build"
   },
   "peerDependencies": {
     "lodash": ">= 4.0 < 5.0"
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "keywords": [],
   "author": "",
   "license": "MIT",
